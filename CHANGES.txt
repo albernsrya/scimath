@@ -50,7 +50,7 @@ Change summary since 4.1.2
 
 * Feature: added units barn, rayl, barns_per_electron, US survey foot (#33)
 
-* Fix: `'None'` was parsed into an invalid unit with `None` as its `value`. (#31)
+* Fix: `None` was parsed into an invalid unit with `None` as its `value`. (#31)
 
 * Fix: UnitArray comparisons will return boolean arrays, like their unadorned
   ndarray counterpart. (#29)
